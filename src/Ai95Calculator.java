@@ -1,9 +1,9 @@
 public class Ai95Calculator {
-    double price = 46.35;
+    double ai95Price = 46.35;
     double tax = 0.14;
-    double fullPrice = price * (1 + tax);
+    double fullPrice = ai95Price * (1 + tax);
 
-    public double calculate(double volume) {
+    public double calculateLoop(double volume) {
         return volume * fullPrice;
     }
 }
